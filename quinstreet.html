@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+        <title>Liz Li | UX/Product Designer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- metas -->
+	<meta name="description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+	<meta name="keywords" content="UX, product, UI, Designer, Liz Li, Danting Li, Liz Danting Li, Danting (Liz) Li, 李丹婷, Chinese, China, Cantonese, San Francisco, San Francisco bay area, portfolio, Academy of Art University" />
+	<meta name="author" content="Liz Li">
+	<meta property="og:site_name " content="LIZ LI | A UX/Product Designer based in San Francisco" />
+	<meta property="og:title" content="LIZ LI | A UX/Product Designer based in San Francisco" />
+	<meta property="og:description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+    
+    
+    
+     <link rel="stylesheet" href="easy-reveal.min.css">
+      <link rel="stylesheet" href="easy-reveal.sass">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.sass">
+    
+    
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+   
+    <script defer src="all.js"></script>
+    <script defer src="all.min.js"></script>
+    
+    </head>    
+<style>
+    
+    
+    
+    * { box-sizing: border-box;
+}
+
+    body { margin: 0;
+}
+
+    * {
+  box-sizing: border-box;
+}
+
+
+    
+    
+    
+    /* loader animation */
+    #overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+    
+    
+    
+    
+    /* rabinbow sub title 7 colors */
+    
+    
+    .bigsubtitle {
+    -webkit-text-stroke: 0.8px #2ab5a2;
+        -webkit-text-fill-color: white;
+        text-shadow: -0.8px 1px 0 #2ab5a2;
+    }
+    
+    
+
+/* The grid: Four equal columns that floats next to each other */
+.column33 {
+  float: left;
+  width: 33.33333%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column33 img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column33 img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row33:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container33 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext33 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn33 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    .header {
+        margin-left: -32px;
+        margin-right: -32px;
+        margin-bottom: -36px;
+        margin-top: -32px;
+    }
+    
+    
+    
+    .social-area {
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 32px;
+          text-align: center;
+    }
+    
+    .social-area > div {
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: normal;
+        font-size: 12px;
+    }
+    
+    .footer_copyright {
+         display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 32px;
+          padding-top: 32px;
+          text-align: center;
+        
+    }
+    
+
+    
+    
+    
+    
+    /*text*/
+    
+    .text3 {
+        padding-bottom: 3vw;
+    }
+    
+    .text_box {
+     /*   width: 78%; */
+        text-align: left;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text_box {
+            width: 78%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text_box {
+            width: 50%;
+        }
+    }
+    
+    
+    
+    .text {
+    /*    width: 100%; */
+        display: inline-block;
+        line-height: 2;
+      /*  margin: auto 11vw;  */
+        
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text {
+            margin: auto 11vw;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text {
+            margin: auto 25vw;
+            width: 100%;
+            
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .text-title-quinstreet {
+        margin: 20px;
+    }
+    .text0 {
+        margin: 20px;
+    }
+    .text1 {
+        margin: 20px;
+    }
+    .text2 {
+        margin: 20px;
+    }
+    .text2-1 {
+        margin: 20px;
+    }
+    .text3 {
+        margin: 20px;
+    }
+    
+    
+    .text-title-big {
+        margin: 20px;
+    }
+    /* .text-title-big */
+    @media screen and (max-width: 500px) {
+        .text-title-big {
+            font-size: 7.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        .text-title-big {
+            font-size: 6.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        .text-title-big {
+            font-size: 24pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .text-title-big {
+            font-size: 28pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        .text-title-big {
+            font-size: 30pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        .text-title-big {
+            font-size: 32pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        .text-title-big {
+            font-size: 36pt;
+        }
+    }
+    
+    
+    
+    /* text title quinstreet */
+    @media screen and (max-width: 500px) {
+        div.text-title-quinstreet {
+            font-size: 5.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text-title-quinstreet {
+            font-size: 4.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text-title-quinstreet {
+            font-size: 18pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text-title-quinstreet {
+            font-size: 20pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text-title-quinstreet {
+            font-size: 21pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text-title-quinstreet {
+            font-size: 23pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text-title-quinstreet {
+            font-size: 25pt;
+        }
+    }
+    
+    
+    
+    
+    /* text0 */
+   @media screen and (max-width: 500px) {
+        div.text0 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text0 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text0 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text0 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text0 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text0 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text0 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text1 */
+    @media screen and (max-width: 500px) {
+        div.text1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2 */
+    @media screen and (max-width: 500px) {
+        div.text2 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2-1 */
+    @media screen and (max-width: 500px) {
+        div.text2-1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    /* text3 */
+    @media screen and (max-width: 500px) {
+        div.text3 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text3 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text3 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text3 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text3 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text3 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text3 {
+            font-size: 17pt;
+        }
+    }
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato',Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-weight: 300;
+  
+}
+    
+.logo {
+  margin: 0;
+ /* font-family: Arial Bold,Helvetica Neue Bold,Helvetica Bold,sans-serif;  */
+  align-items: center;
+}      
+
+.footer_copyright {
+  margin: 0;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;  
+}    
+    
+    
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create two columns */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+} 
+       
+
+/* nav bar */    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2ab5a2 0%, #2ab5a2   100%);
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}    
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 20px;
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    margin-top: 7px; 
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}    
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+        align-items: center;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+    }
+
+    }
+    
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+    
+    <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars">
+        </i>
+        </span>
+        <a href="index.html" class="logo"><img src="img_index/logo-lizli-fullname-white.png" width="200vw" align-items="center" draggable="false" style="-moz-user-select: none;"></a>
+        
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://drive.google.com/file/d/1xqARMHFsiR8uFLCapWrVJ4badSJkfGVQ/view?usp=sharing" title="View my Resume" class="nav-links">Resume</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/lizdantingli/" title="Visit my LinkedIn" class="nav-links">LinkedIn</a>
+      </li>
+      <li>
+        <a target="_blank" href="mailto:liz.danting.li@gmail.com" title="Email me" class="nav-links">Email</a>
+      </li>
+    </ul>
+  </nav>
+    
+    
+    <!-- loader animation -->
+    <div id="overlay">
+        <div id="progstat"></div>
+        <div id="progress"></div>
+      </div>
+    
+
+<!-- Header -->
+<div class="header">
+  <img src="img_index/quinstreet-logo.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+</div>
+
+<!-- Text Grid -->
+<div class="grid"> 
+        <div class="text_box">
+    <div class="text">
+        <div  data-easy-reveal="fade-in-up" class="text-title-big bigsubtitle">
+            <strong>QuinStreet Internship</strong>
+        </div>
+<div  data-easy-reveal="fade-in-up" class="text0">
+Date: June 2019, Time: 3 Months,<br> Role: Web Design, Team: Creative.
+</div>
+    
+<div  data-easy-reveal="fade-in-up" class="text1">
+    Over the summer, I worked with Creative team at QuinStreet on Education, Credit Cards, Home Services, Auto Insurance, Banking, Personal Loans Verticals. I <strong>defined the user problem</strong>, <strong>ideated design solutions with different mental models</strong>, <strong>figured out the engineering constraints and eligibility</strong>, and aligned with the Creative team on creating design solutions for a large user base. If you're interested in knowing more about the projects, feel free to reach out to me.</div>
+
+<div  data-easy-reveal="fade-in-up" class="text2">
+    I worked on Education Verticals to create new user flows to help users find out the right degree programs. I crafted UX flows, designed interfaces and conducted user studies. <strong>Working in a fast-paced agile environment</strong>, I provided iterative designs and promoted brand identity for worldwide clients by designing multimedia materials.</div>
+        
+<div  data-easy-reveal="fade-in-up" class="text2-1">
+    I became more<strong> detail-oriented</strong> and meanwhile widened my vision to <strong>see the big picture</strong>. I sought the optimal solution and pursued pixel perfect. Additionally, I explored on different screen resolution market share by platform, region and year. I thought in products to make sure I build the right features for the right people and tackled real problems people have.</div>
+
+<div  data-easy-reveal="fade-in-up" class="text3">
+I've had so much growth within such a short period of time. One of the main lessons I learnt was that<strong> cross-functional alignment is key in moving fast</strong>. When the problem space is complex, having regular syncs with the cross-functions can not only broaden my perspective on the issue, but also help me get regular important feedback to ensure that my solution is solving the right problem.</div>
+
+
+    </div>
+            </div>
+
+    
+    
+    
+    
+    <!-- The three columns -->
+<div class="row33">
+  <div class="column33">
+    <img src="img_index/cardratings.png" style="width:100%" onclick="myFunction(this);" draggable="false" style="-moz-user-select: none;">
+  </div>
+  <div class="column33">
+    <img src="img_index/userflow-quinstreet.jpg" style="width:100%" onclick="myFunction(this);" draggable="false" style="-moz-user-select: none;">
+  </div>
+  <div class="column33">
+    <img src="img_index/dansdeals.jpg" style="width:100%" onclick="myFunction(this);" draggable="false" style="-moz-user-select: none;">
+  </div>
+  
+</div>
+
+<div class="container33">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn33">&times;</span>
+  <img id="expandedImg33" style="width:100%">
+  <div id="imgtext33"></div>
+</div>
+    
+    
+    <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg33");
+  var imgText = document.getElementById("imgtext33");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+    
+    
+    
+</div>
+
+    <!-- Footer -->
+    <footer>
+       <div class="footer_copyright"><p><small>&#169; 2020 Liz Li. Made From Scratch.</small></p>
+        </div>
+    </footer>
+    
+     <script>
+    let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    $(document).keydown(function(e){
+    if(e.which === 123){
+ 
+       return false;
+ 
+    }
+ 
+});
+    </script>
+    <script>
+    $(document).bind("contextmenu",function(e) { 
+	e.preventDefault();
+ 
+});
+    </script>
+    
+    <script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>
+    
+    
+    
+    <script>
+        ;(function(){
+  function id(v){return document.getElementById(v); }
+  function loadbar() {
+    var ovrl = id("overlay"),
+        prog = id("progress"),
+        stat = id("progstat"),
+        img = document.images,
+        c = 0;
+        tot = img.length;
+
+    function imgLoaded(){
+      c += 1;
+      var perc = ((100/tot*c) << 0) +"%";
+      prog.style.width = perc;
+      stat.innerHTML = "Loading "+ perc;
+      if(c===tot) return doneLoading();
+    }
+    function doneLoading(){
+      ovrl.style.opacity = 0;
+      setTimeout(function(){ 
+        ovrl.style.display = "none";
+      }, 1200);
+    }
+    for(var i=0; i<tot; i++) {
+      var tImg     = new Image();
+      tImg.onload  = imgLoaded;
+      tImg.onerror = imgLoaded;
+      tImg.src     = img[i].src;
+    }    
+  }
+  document.addEventListener('DOMContentLoaded', loadbar, false);
+}());
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery.easy-reveal.min.js"></script>
+    <script src="jquery.easy-reveal.js"></script>
+    <script src="jquery.easy-reveal.min.js.map"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+
