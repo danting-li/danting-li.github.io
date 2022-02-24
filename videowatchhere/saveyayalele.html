@@ -1269,44 +1269,7 @@ body {
     
     
     
-    <!-- text typing effects -->
     
-    <p class="ml12" style="white-space: pre-line;">
-        Hi, I am Liz Li, 
-        your UX &#38; Product Designer 
-        with experience across multiple disciplines 
-        based in SF bay area.
-    </p>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
-    </script>
-   
-    
-    <script>
-        
-    // Wrap every letter in a span
-var textWrapper = document.querySelector('.ml12');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml12 .letter',
-    translateX: [40,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 1200,
-    delay: (el, i) => 500 + 30 * i
-  }).add({
-    targets: '.ml12 .letter',
-    translateX: [0,-30],
-    opacity: [1,0],
-    easing: "easeInExpo",
-    duration: 1100,
-    delay: (el, i) => 100 + 30 * i
-  });
-        
-    </script>
     
     
     
