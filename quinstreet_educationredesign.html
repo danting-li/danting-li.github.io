@@ -1,0 +1,2173 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+        <title>Liz Li | UX/Product Designer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+        <!-- metas -->
+    <meta name="description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+    <!--
+
+    <meta name="keywords" content="UX, product, UI, Designer, Liz Li, Danting Li, Liz Danting Li, Danting (Liz) Li, 李丹婷, Chinese, China, Cantonese, San Francisco, San Francisco bay area, portfolio, Academy of Art University" />
+    
+    -->
+    <meta name="author" content="Liz Li">
+    <meta property="og:site_name " content="LIZ LI | A UX/Product Designer based in San Francisco" />
+    <meta property="og:title" content="LIZ LI | A UX/Product Designer based in San Francisco" />
+    <meta property="og:description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+    
+    
+    
+    
+    <link rel="stylesheet" href="easy-reveal.min.css">
+      <link rel="stylesheet" href="easy-reveal.sass">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.sass">
+    
+    
+    
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+   
+    <script defer src="all.js"></script>
+    <script defer src="all.min.js"></script>
+    
+    </head>    
+<style>
+    
+    
+    
+    * { box-sizing: border-box;
+}
+
+    body { margin: 0;
+}
+
+    * {
+  box-sizing: border-box;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    /* loader animation */
+    #overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+    
+    
+    
+    
+    
+    
+
+      
+    /* sidebar outline */
+    
+    #mySidenav a.outline {
+  position: fixed;
+  right: -2.1rem;
+  transition: 0.3s;
+  padding: 14px;
+  width: 4.9rem;
+  text-decoration: none;
+  
+  color: rbga(255,255,255,0);
+  border-radius: 5px 0 0 5px;
+        
+  margin-top: 18%;
+    
+        
+        
+        z-index: 5000;
+}
+    
+    
+    
+
+    
+    
+#mySidenav:hover a.outline:hover {
+  right: 0;
+  
+  
+}
+    
+    a.outline:hover {
+        color: white;
+    }
+
+.introduction {
+  top: 20px;
+    color: #e6261f;
+  background-color: #e6261f;
+}
+
+.research {
+  top: 80px;
+    color: #eb7532;
+  background-color: #eb7532;
+}
+
+.ideation {
+  top: 140px;
+    color: #f7d038;
+  background-color: #f7d038;
+}
+
+.design {
+  top: 200px;
+    color: #a3e048;
+  background-color: #a3e048;
+}
+
+.redesign {
+  top: 260px;
+    color: #49da9a;
+  background-color: #49da9a;
+}
+
+.strategy {
+  top: 320px;
+    color: #34bbe6;
+  background-color: #34bbe6;
+}
+
+.reflection {
+  top: 380px;
+    color: #d23be7;
+  background-color: #d23be7;
+}
+    
+@media screen and (max-width: 500px) {
+        div.sidenav {
+            font-size: 2.7vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.sidenav {
+            font-size: 1.7vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.sidenav {
+            font-size: 7.9pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.sidenav {
+            font-size: 8pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.sidenav {
+            font-size: 8.1pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.sidenav {
+            font-size: 8.2pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.sidenav {
+            font-size: 8.3pt;
+        }
+    }
+     
+    
+    
+    
+    
+    /* rainbow sub title 7 colors */
+    .introduction1 {
+    color: #e6261f;
+    }
+
+    .research2 {
+    color: #eb7532;
+    }
+
+    .ideation3 {
+    color: #f7d038;
+    }
+
+    .design4 {
+    color: #a3e048;
+    }
+
+    .redesign5 {
+    color: #49da9a;
+    }
+
+    .strategy6 {
+    color: #34bbe6;
+    }
+
+    .reflection7 {
+    color: #d23be7;
+    }
+    
+    /* rainbow sub title 7 colors change from lato to didot  in Feb 10, 2022 */
+    .bigsubtitle {
+    -webkit-text-stroke: 0px #2ab5a2;
+        -webkit-text-fill-color: #2ab5a2;
+        text-shadow: -0.0px 0px 0 #2ab5a2;
+    }
+    
+    /* rainbow sub title 7 colors change from lato to didot add the .titlefontchange class  in Feb 10, 2022 */
+    .titlefontchange {
+        font-family: 'Didot',Arial,Helvetica Neue,Helvetica,serif; 
+            }
+    
+    
+    
+
+/* The grid: Four equal columns that floats next to each other */
+.column33 {
+  float: left;
+  width: 33.33333%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column33 img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column33 img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row33:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container33 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext33 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn33 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    .header {
+        margin-left: -32px;
+        margin-right: -32px;
+        margin-bottom: -36px;
+        margin-top: -32px;
+    }
+    
+    
+    
+    .social-area {
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 32px;
+          text-align: center;
+    }
+    
+    .social-area > div {
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: normal;
+        font-size: 12px;
+    }
+    
+    .footer_copyright {
+         display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 32px;
+          padding-top: 32px;
+          text-align: center;
+        
+    }
+    
+
+    
+    
+    
+    
+    /*text*/
+    
+    .text3 {
+        padding-bottom: 3vw;
+    }
+    
+    .text_box {
+     /*   width: 78%; */
+        text-align: left;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text_box {
+            width: 78%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text_box {
+            width: 50%;
+        }
+    }
+    
+    
+    
+    .text {
+    /*    width: 100%; */
+        display: inline-block;
+        line-height: 2;
+      /*  margin: auto 11vw;  */
+        
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text {
+            margin: auto 11vw;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text {
+            margin: auto 25vw;
+            width: 100%;
+            
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .text-title-quinstreet {
+        margin: 20px;
+    }
+    .text0 {
+        margin: 20px;
+    }
+    .text1 {
+        margin: 20px;
+    }
+    .text2 {
+        margin: 20px;
+    }
+    .text2-1 {
+        margin: 20px;
+    }
+    .text2-2, .text2-3, .text2-4, .text2-5, .text2-6, .text2-7, .text2-8, .text2-9, .text2-10, .text2-11, .text2-12, .text2-13, .text2-14, .text2-15, .text2-16, .text2-17, .text2-18, .text2-19, .text2-20, .text2-21, .text2-22, .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16, .text-title-big {
+        margin: 20px;
+    }
+    .text3 {
+        margin: 20px;
+    }
+    
+    
+    /* .text-title-big */
+    @media screen and (max-width: 500px) {
+        .text-title-big {
+            font-size: 7.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        .text-title-big {
+            font-size: 6.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        .text-title-big {
+            font-size: 24pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .text-title-big {
+            font-size: 28pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        .text-title-big {
+            font-size: 30pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        .text-title-big {
+            font-size: 32pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        .text-title-big {
+            font-size: 36pt;
+        }
+    }
+    
+    
+    
+    
+    /* text title quinstreet */
+    @media screen and (max-width: 500px) {
+        div.text-title-quinstreet {
+            font-size: 5.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text-title-quinstreet {
+            font-size: 4.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text-title-quinstreet {
+            font-size: 18pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text-title-quinstreet {
+            font-size: 20pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text-title-quinstreet {
+            font-size: 21pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text-title-quinstreet {
+            font-size: 23pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text-title-quinstreet {
+            font-size: 25pt;
+        }
+    }
+    
+    
+    
+    
+    /* text0 */
+   @media screen and (max-width: 500px) {
+        div.text0 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text0 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text0 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text0 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text0 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text0 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text0 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text1 */
+    @media screen and (max-width: 500px) {
+        div.text1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2 */
+    @media screen and (max-width: 500px) {
+        div.text2 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2-1 */
+    @media screen and (max-width: 500px) {
+        div.text2-1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    /* text3 */
+    @media screen and (max-width: 500px) {
+        div.text3 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text3 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text3 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text3 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text3 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text3 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text3 {
+            font-size: 17pt;
+        }
+    }
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    /* text2-2 to text2-22 */
+    @media screen and (max-width: 500px) {
+        div.text2-2 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-2 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-2 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-2 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-2 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-2 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-2 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-3 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-3 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-3 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-3 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-3 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-3 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-3 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-4 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-4 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-4 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-4 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-4 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-4 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-4 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-5 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-5 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-5 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-5 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-5 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-5 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-5 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-6 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-6 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-6 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-6 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-6 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-6 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-6 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-7 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-7 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-7 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-7 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-7 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-7 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-7 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-8 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-8 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-8 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-8 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-8 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-8 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-8 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-9 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-9 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-9 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-9 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-9 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-9 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-9 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-10 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-10 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-10 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-10 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-10 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-10 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-10 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-11 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-11 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-11 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-11 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-11 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-11 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-11 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-12 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-12 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-12 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-12 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-12 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-12 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-12 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-13 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-13 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-13 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-13 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-13 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-13 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-13 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-14 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-14 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-14 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-14 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-14 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-14 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-14 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-15 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-15 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-15 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-15 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-15 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-15 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-15 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-16 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-16 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-16 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-16 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-16 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-16 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-16 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-17 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-17 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-17 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-17 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-17 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-17 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-17 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-18 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-18 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-18 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-18 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-18 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-18 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-18 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-19 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-19 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-19 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-19 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-19 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-19 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-19 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-20 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-20 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-20 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-20 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-20 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-20 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-20 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-21 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-21 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-21 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-21 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-21 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-21 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-21 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-22 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-22 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-22 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-22 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-22 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-22 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-22 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato',Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-weight: 300;
+  
+}
+    
+.logo {
+  margin: 0;
+ /* font-family: Arial Bold,Helvetica Neue Bold,Helvetica Bold,sans-serif;  */
+  align-items: center;
+}      
+
+.footer_copyright {
+  margin: 0;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;  
+}    
+    
+    
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create two columns */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+} 
+       
+
+/* nav bar */    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2ab5a2 0%, #2ab5a2   100%);
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}    
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 20px;
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    margin-top: 7px; 
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}    
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+        align-items: center;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+    }
+
+    }
+    
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+    
+    <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars">
+        </i>
+        </span>
+        <a href="index.html" class="logo"><img src="img_index/logo-lizli-fullname-white.png" width="200vw" align-items="center" draggable="false" style="-moz-user-select: none;"></a>
+        
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://drive.google.com/file/d/1sjnmVOiRT69MCWdGipH8qXWhQHOQ362B/view?usp=sharing" title="View my Resume" class="nav-links">Resume</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/lizdantingli/" title="Visit my LinkedIn" class="nav-links">LinkedIn</a>
+      </li>
+      <li>
+        <a target="_blank" href="mailto:liz.danting.li@gmail.com" title="Email me" class="nav-links">Email</a>
+      </li>
+    </ul>
+  </nav>
+    
+
+    
+    
+    
+    
+    <!-- loader animation -->
+    <div id="overlay">
+        <div id="progstat"></div>
+        <div id="progress"></div>
+      </div>
+    
+
+    
+    
+    
+    
+<!-- 
+sidebar outline 
+-->
+    
+<div id="mySidenav" class="sidenav">
+        
+  <a class="outline introduction" href="#introduction">Background Story</a>
+  <a class="outline research" href="#research">Problem Space</a>
+  <a class="outline ideation" href="#ideation">Fast Iterations</a>
+  <a class="outline design" href="#design">Design Decisions</a>
+  <a class="outline redesign" href="#redesign">Visual Style</a>
+  <a class="outline strategy" href="#strategy">UX Validation</a>
+  <a class="outline reflection" href="#reflection">Design Challenges</a>
+       
+</div>  
+    
+    
+    
+    
+<!-- Header -->
+<div class="header">
+  <img src="img_index/quinstreet_edu_work_cover.png" width="100%" draggable="false" style="-moz-user-select: none;">
+</div>
+
+<!-- Text Grid -->
+<div class="grid"> 
+        <div class="text_box">
+    <div class="text">
+        <div  data-easy-reveal="fade-in-up" class="text-title-big bigsubtitle titlefontchange"> <!-- /* rainbow sub title 7 colors change from lato to didot, add the titlefontchange class  in Feb 10, 2022 */ -->
+            <strong>Online Education Platform Redesign</strong>
+        </div>
+<div  data-easy-reveal="fade-in-up" class="text0">
+Date: Summer 2019, Time: 3 Months,<br> Role: UX Design, Team: Creative.
+</div>
+    
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet introduction1" id="introduction">
+            <strong>Background Story</strong>
+        </div>
+        
+<div  data-easy-reveal="fade-in-up" class="text1">
+    During my internship at QuinStreet, I created new user flows for education verticals. The client is <a href="https://www.onlinedegrees.com">OnlineDegrees</a>, which offers accredited online degrees & programs. Its competitive advantage over the competitors is the ability to empower users to plan their prospects and choose the most promising outcomes in an unconstrained way. I provided iterative designs in web and mobile to reduce task times and improve users’ subjective satisfaction.</div>
+
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet research2" id="research">
+            <strong>Problem Space</strong>
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Due to time constraints, our engineers had to quickly ship AllStar Form Flow (UX Flows of Online Degrees & Programs Searching) with the compromise of UX. However, after I did some quick usability testings, I discovered some horrendous usability issues. 
+        </div>
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>Inefficiency of Use</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Users have to constantly shift between pages to search among the mixed data.
+        </div>
+
+
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>Low Visibility of Searching Process</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Users mess everything up easily because they can easily lose track of each individual searching progress.
+        </div>
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>Poor Mental Model of Program Recommendation</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Users have no idea what comprise a program recommendation and what key info they need to focus.
+        </div>
+
+
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>Fuzzy Information Architecture</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Users are struggling with what to do next when they finish the searching process. There is no way to get back to the landing page.
+        </div>
+
+
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>Now, here come the design challenges:</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            How might we communicate the searching process to people?
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            How might we empower users to find the expected degree programs efficiently?
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            How might we inform users of searching progress?
+        </div>
+
+
+        
+        <!-- current competitors,
+             adjacent competitors,
+             aspirational competitors,
+             demographics, psychographics, socioeconomics, behavioristics,  
+             brand stance to different competitors categories,
+             market analysis: trend, tribe, identity, customer segmentation, segment business-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet ideation3" id="ideation">
+            <strong>Fast Iterations</strong>
+        </div>
+        <!--
+        <div class="text2-9">
+            With the design requirements in mind, I began to ideate on potential solutions through sketches and storyboards.
+        </div>
+        
+        <div class="sub-title-3-1"><strong>STORYBOARD</strong></div> 
+       -->
+        <!-- placeholder of sketched storyboard and photo storyboard 
+             get one of the main user flows on the storyboard-->
+        
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text2-10">
+        Through an interactive design process, I was quickly moving between paper and digital prototyping, testing prototypes with users, and getting feedback from my manager, social media team and engineering team. From each iteration, I learned something valuable. Some helped me make small usability improvements, some helped me make major changes in my design direction.
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-10">
+        According to the data analysis by Marketing and Media teams, we found that 90% traffic comes from mobile, so we made the decision to start with mobile then desktop. We chose the most common mobile screen resolution in 360×640 (17.9%) and desktop screen resolution in 1366×768 (23.49%) according to the statistics from <a href="https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide">StatCounter Global Stats</a>.
+        </div>
+
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-8"><strong>Initial iterations for a clear searching process</strong></div>
+        
+        <!-- insert an image of combination of closed and open card sorting.
+            Participants sort cards into categories you give them, and can create their own categories as well.
+            Similarity matrix, dendrograms, participant-centric analysis (PCA) 
+        -->
+        
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+            After a few brainstorming sessions, I experimented with all different ways of walking users through degree programs searching process and designing delightful user experience: steppers, a searching guide section, tips, navigation bar, searching guide page…
+        </div>
+        
+        <img src="img_etsy/etsy_redesign_ia_small.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <!-- placeholder of information architecture -->
+        
+                <div data-easy-reveal="fade-in-up"  class="sub-title-10">
+                    <strong>WIRE FLOW</strong>
+                </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-13">
+            I outlined the wireframes of the new version of Etsy based on the IA and created several <strong>key path scenarios</strong> to further analyze the flow of interaction of the updated version of Etsy.
+        </div>
+        <!-- get the "user goal (goal or story level) - task flow (action level) - wireflow (component level) - user flow (interaction level) can start off simple and help determine key user journeys" on the paper prototyping, wireframe, mockup, prototype mp4-->
+        
+        <!--
+        <div class="sub-title-6">
+                    <strong>WIRE FLOW</strong>
+                </div>
+        -->
+        
+       <img src="img_etsy/wire_flow_1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+       <img src="img_etsy/wire_flow_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <!-- placeholder of paper prototypes and low fidelity wireframes. -->
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-11"><strong>FIRST CLICK TESTING</strong></div>
+        <div data-easy-reveal="fade-in-up"  class="text2-14">I conducted a first click test about the low fidelity wireframes of Etsy Redesign. I tested 3 main screens of 2 main wire flows. Finally I got the heatmaps which can be a visual clue to show how users might interact with these wireframes.</div>
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/etsy_wire_first_click_testing.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <!-- test the 1st wireframe and get the iteration -->
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet design4" id="design">
+            <strong>Design</strong>
+        </div>
+        <div class="text2-15">
+            <div data-easy-reveal="fade-in-up" >
+                Based on the analysis of first click testing result and in-person usability test, I decide to keep the picture search function and local art workshops on the home page, buy again and cancel items function on the purchase &#38; reviews page, recent searches on the search screen. I tried to explore multiple designs for different screens. After several rounds of critiques on the wireframes, I moved on to high fidelity mockups. The motivation of the visual design was to create a aesthetic look that entices more users to use Etsy. I followed the current Etsy style guide and continued using Etsy orange color as the main theme.</div>
+            <li data-easy-reveal="fade-in-up" ><strong>Home Page</strong>: Add local art workshops section and country &#38; region function to the home page to provide a platform for Etsy users to find the local art workshop.</li>
+            <li data-easy-reveal="fade-in-up" ><strong>You Page</strong>: Add addresses and payment settings section to the you page to provide a more convenient way to let Etsy users to find and edit them.</li>
+            <li data-easy-reveal="fade-in-up" ><strong>Addresses Page, Payment Settings Page</strong>: Add the new address/payment method, edit and delete to these two sections to let Etsy users to easily edit on them.</li>
+            <li data-easy-reveal="fade-in-up" ><strong>Purchases &#38; Reviews Page</strong>: Add buy again and cancel items function to purchases &#38; reviews page to let Etsy users find them in an easier way if they accidentally order a product then want to cancel it.</li>
+            <li data-easy-reveal="fade-in-up" ><strong>Product Page</strong>: Add pre-order and out of stock buttons to the product page to show what the product page looks like when a product is unavailable.</li>
+            
+        </div>
+        <img data-easy-reveal="fade-in-up" src="img_etsy/etsy_design_mockup_collection.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <!-- placeholder of 1st round high fidelity mockups design -->
+        
+        <!-- conduct a usability test and get feedback to improve it to get a redesign version -->
+        
+        <!-- Compare before and after 
+             Before: Clunky and sluggish form 
+                Sometimes, we need to collect the user related info by designing a better form, but the sluggish and clunky form is totally a waste of time. It’s better to streamline the involved steps to make the form look concise and clear.
+                
+                The Good: Good User Signup Form
+                Things like the user signup form or comment area is a social interaction element in the design. To add social sharing button (like Facebook, Twitter, YouTube and LinkedIn), or to enter the email address to sign up for the newsletter can only add the ways to spread our info, but also increase the user retention rate. We can take a good reference from below.
+            
+            -->
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet redesign5" id="redesign">
+            <strong>Redesign</strong>
+        </div>
+        <div class="text2-16">
+            <div data-easy-reveal="fade-in-up" >
+                I conduct the in-person usability test to know how users interact with the new design of Yelp and gather the feedback to identify usability issues.</div>
+        <li data-easy-reveal="fade-in-up" >I cannot see the recent searches and voice search when I click browse by category.</li>
+        <li data-easy-reveal="fade-in-up" >I cannot clearly see some icons on the picture search page when I am in the dark atmosphere.</li>
+        <li data-easy-reveal="fade-in-up" >I dislike the color of ratings.</li>
+        <li data-easy-reveal="fade-in-up" >I think the out of stock button looks unnecessary for the product page, since I can know it by pre-order button.</li>
+        <li data-easy-reveal="fade-in-up" >I think if each address or payment method can have a single page that would be great.</li>
+        <li data-easy-reveal="fade-in-up" >I mistap the texts on the purchases &#38; Reviews page.</li>
+        </div>
+        <div class="text2-17">
+            <div data-easy-reveal="fade-in-up" >
+                According to the feedback, I decided to improve the visuals, the information hierarchy, and overall experience of the app so I decided to redesign it. To create a better consistency, I came up with the redesign.</div>
+            
+        <img src="img_etsy/redesign_user_flow_1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_etsy/redesign_user_flow_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+            <li data-easy-reveal="fade-in-up" ><strong>Home Page</strong>: Add local art workshops section, country &#38; region and picture search function to the home page to provide a platform for Etsy users to find the local art workshop. Redesign the local art workshop section. Add the name, ratings, reviews, price to the local art workshops section. Redesign the picture search page. Change the icon color to keep the consistency to the brand.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen1.mp4" type="video/mp4"></video>
+            <li data-easy-reveal="fade-in-up" ><strong>Search Page</strong>: Redesign the search page to let Etsy users can toggle back and forth with recent searches and browse by category.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen2.mp4" type="video/mp4"></video>
+            <li data-easy-reveal="fade-in-up" ><strong>You Page</strong>: Add addresses and payment settings section to the you page to provide a more convenient way to let Etsy users to find and edit them. The redesign uses a 8-point grid system.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen7.mp4" type="video/mp4"></video>
+            <li data-easy-reveal="fade-in-up" ><strong>Addresses Page, Payment Settings Page</strong>: Add the new address/payment method, edit and delete to these two sections to let Etsy users to easily edit on them. The redesign uses a 8-point grid system.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen5.mp4" type="video/mp4"></video>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen4.mp4" type="video/mp4"></video>
+            <li data-easy-reveal="fade-in-up" ><strong>Purchases &#38; Reviews Page</strong>: Add buy again and cancel items function to purchases &#38; reviews page to let Etsy users find them in an easier way if they accidentally order a product then want to cancel it. The redesign changes the user interface design and consider the visual hierarchy elements.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen6.mp4" type="video/mp4"></video>
+            <li data-easy-reveal="fade-in-up" ><strong>Product Page</strong>: Add pre-order button to the product page to show what the product page looks like when a product is unavailable. Remove the out of stock button. Make the add to cart and buy it now button in a transparent color to show its disability.</li>
+            <video controls width="100%" autoplay loop><source src="img_etsy/screen3.mp4" type="video/mp4"></video>
+        
+        </div>
+        
+        <!-- placeholder of 4 user flows. 
+             Each user flow has the 
+             1. 'prototype screen recording mp4' and 
+             2. 'comparison of how the redesign updates different from the 1st round design' in each user flow. If necessary, show the user flow in the mockups comparison so people don't get confused.
+
+             for the prototype mp4, use 
+             <video autoplay loop>
+             <source src="/video/prototype1.mp4">
+             </video>
+             this way the video can auto plays and keep auto play again andd again.
+
+            Compare Design and Redesign.
+            Compare Original and Redesign.
+
+        -->
+        <div  data-easy-reveal="fade-in-up" class="sub-title-12"><strong>ITERATION</strong></div>
+        <img data-easy-reveal="fade-in-up"  src="img_etsy/iteration_4_process_etsy_redesign.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/iteration_4_process_etsy_redesign_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/iteration_4_process_etsy_redesign_3.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/iteration_4_process_etsy_redesign_4.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/iteration_4_process_etsy_redesign_5.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet strategy6" id="strategy">
+            <strong>Strategy</strong>
+        </div>
+        
+        
+            <div  data-easy-reveal="fade-in-up" class="sub-title-13"><strong>SOUL</strong></div>
+            <div  data-easy-reveal="fade-in-up" class="text2-18">Enjoy the vintage world.</div> 
+            <div  data-easy-reveal="fade-in-up" class="sub-title-14"><strong>MISSION</strong></div>
+            <div class="text2-19">
+            <li data-easy-reveal="fade-in-up" >We are interactive. We have local art workshops for you to find your community and interact with other people who love art.</li>    
+            <li data-easy-reveal="fade-in-up" >We are convenient. We have voice search and picture search for you to quickly find what you want.</li>
+            <li data-easy-reveal="fade-in-up" >We are clear. We have the user flows redesign and UI elements reorganization for you to enjoy using Etsy.</li>
+            </div> 
+            <div  data-easy-reveal="fade-in-up" class="sub-title-15"><strong>BRAND KEYWORDS</strong></div> 
+            <div  data-easy-reveal="fade-in-up" class="text2-20">Interactive, convenient, clear, consistent, creative, engaging, aesthetic.</div>
+            <div data-easy-reveal="fade-in-up"  class="sub-title-16"><strong>BUSINESS EXTENSION</strong></div>
+            <div  data-easy-reveal="fade-in-up" class="text2-21">Local Art Workshop: Add local art workshop section to the home page. Charge hosts who provide workshops 10% service fee.</div>
+            
+        
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet reflection7" id="reflection">
+            <strong>Reflection</strong>
+        </div>
+    
+        
+        <div  data-easy-reveal="fade-in-up" class="text3">
+        In terms of this project, I realized that simple UI embellishment can only produce surface delight. The deep delight can only be achieved based on the fundamentals of the product right like functional, usable, useful, desirable and reliable interfaces. Delight is about the users. Delight consists of pleasure, flow and meaning. I want to achieve delight in product design since it is missing for most of the products. I will focus more on the needs of users and help users become better at the thing they are trying to achieve.</div>
+        
+        <img  data-easy-reveal="fade-in-up" src="img_etsy/etsy_redesign_cover_mockup.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        <!-- placeholder of a branding image mockup. An ad mockup photo or something else. Or fancy mp4 ads autoplay at the end. -->
+
+
+
+    </div>
+            </div>
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+    <!-- Footer -->
+    <footer>
+       <div class="footer_copyright"><p><small>&#169; Liz Li. Made From Scratch.</small></p>
+        </div>
+    </footer>
+    
+     <script>
+    let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <script>
+    $(document).keydown(function(e){
+    if(e.which === 123){
+ 
+       return false;
+ 
+    }
+ 
+});
+    </script>
+    <script>
+    $(document).bind("contextmenu",function(e) { 
+    e.preventDefault();
+ 
+});
+    </script>
+    
+    <script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <script>
+        ;(function(){
+  function id(v){return document.getElementById(v); }
+  function loadbar() {
+    var ovrl = id("overlay"),
+        prog = id("progress"),
+        stat = id("progstat"),
+        img = document.images,
+        c = 0;
+        tot = img.length;
+
+    function imgLoaded(){
+      c += 1;
+      var perc = ((100/tot*c) << 0) +"%";
+      prog.style.width = perc;
+      stat.innerHTML = "Loading "+ perc;
+      if(c===tot) return doneLoading();
+    }
+    function doneLoading(){
+      ovrl.style.opacity = 0;
+      setTimeout(function(){ 
+        ovrl.style.display = "none";
+      }, 1200);
+    }
+    for(var i=0; i<tot; i++) {
+      var tImg     = new Image();
+      tImg.onload  = imgLoaded;
+      tImg.onerror = imgLoaded;
+      tImg.src     = img[i].src;
+    }    
+  }
+  document.addEventListener('DOMContentLoaded', loadbar, false);
+}());
+    </script>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery.easy-reveal.min.js"></script>
+    <script src="jquery.easy-reveal.js"></script>
+    <script src="jquery.easy-reveal.min.js.map"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+
+
+

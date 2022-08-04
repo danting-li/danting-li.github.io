@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+        <title>Liz Li | UX/Product Designer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+        <!-- metas -->
+	<meta name="description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+	
+	<meta name="author" content="Liz Li">
+	<meta property="og:site_name " content="LIZ LI | A UX/Product Designer based in San Francisco" />
+	<meta property="og:title" content="LIZ LI | A UX/Product Designer based in San Francisco" />
+	<meta property="og:description" content="Hi, I'm Liz Li. A UX/Product Designer who is passionate about delighting digital experience." />
+    
+    
+    
+    
+    <link rel="stylesheet" href="easy-reveal.min.css">
+      <link rel="stylesheet" href="easy-reveal.sass">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.sass">
+    
+    
+    
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+   
+    <script defer src="all.js"></script>
+    <script defer src="all.min.js"></script>
+    
+    </head>    
+<style>
+    
+    
+    
+    * { box-sizing: border-box;
+}
+
+    body { margin: 0;
+}
+
+    * {
+  box-sizing: border-box;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    /* loader animation */
+    #overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+    
+    
+    
+    
+    
+    
+
+      
+    /* sidebar outline */
+    
+    #mySidenav a.outline {
+  position: fixed;
+  right: -2.1rem;
+  transition: 0.3s;
+  padding: 14px;
+  width: 4.9rem;
+  text-decoration: none;
+  
+  color: rbga(255,255,255,0);
+  border-radius: 5px 0 0 5px;
+        
+  margin-top: 18%;
+    
+        
+        
+        z-index: 5000;
+}
+    
+    
+    
+
+    
+    
+#mySidenav:hover a.outline:hover {
+  right: 0;
+  
+  
+}
+    
+    a.outline:hover {
+        color: white;
+    }
+
+.introduction {
+  top: 20px;
+    color: #e6261f;
+  background-color: #e6261f;
+}
+
+.research {
+  top: 80px;
+    color: #eb7532;
+  background-color: #eb7532;
+}
+
+.ideation {
+  top: 140px;
+    color: #f7d038;
+  background-color: #f7d038;
+}
+
+.design {
+  top: 200px;
+    color: #a3e048;
+  background-color: #a3e048;
+}
+
+.redesign {
+  top: 260px;
+    color: #49da9a;
+  background-color: #49da9a;
+}
+
+.strategy {
+  top: 320px;
+    color: #34bbe6;
+  background-color: #34bbe6;
+}
+
+.reflection {
+  top: 380px;
+    color: #d23be7;
+  background-color: #d23be7;
+}
+    
+@media screen and (max-width: 500px) {
+        div.sidenav {
+            font-size: 2.7vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.sidenav {
+            font-size: 1.7vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.sidenav {
+            font-size: 7.9pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.sidenav {
+            font-size: 8pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.sidenav {
+            font-size: 8.1pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.sidenav {
+            font-size: 8.2pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.sidenav {
+            font-size: 8.3pt;
+        }
+    }
+     
+    
+    
+    
+    
+    /* rainbow sub title 7 colors */
+    .introduction1 {
+    color: #e6261f;
+    }
+
+    .research2 {
+    color: #eb7532;
+    }
+
+    .ideation3 {
+    color: #f7d038;
+    }
+
+    .design4 {
+    color: #a3e048;
+    }
+
+    .redesign5 {
+    color: #49da9a;
+    }
+
+    .strategy6 {
+    color: #34bbe6;
+    }
+
+    .reflection7 {
+    color: #d23be7;
+    }
+    
+    /* rainbow sub title 7 colors change from lato to didot  in Feb 10, 2022 */
+    .bigsubtitle {
+    -webkit-text-stroke: 0px #2ab5a2;
+        -webkit-text-fill-color: #2ab5a2;
+        text-shadow: -0.0px 0px 0 #2ab5a2;
+    }
+    
+    /* rainbow sub title 7 colors change from lato to didot add the .titlefontchange class  in Feb 10, 2022 */
+    .titlefontchange {
+        font-family: 'Didot',Arial,Helvetica Neue,Helvetica,serif; 
+            }
+    
+    
+    
+
+/* The grid: Four equal columns that floats next to each other */
+.column33 {
+  float: left;
+  width: 33.33333%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column33 img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column33 img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row33:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container33 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext33 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn33 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    .header {
+        margin-left: -32px;
+        margin-right: -32px;
+        margin-bottom: -36px;
+        margin-top: -32px;
+    }
+    
+    
+    
+    .social-area {
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 32px;
+          text-align: center;
+    }
+    
+    .social-area > div {
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: normal;
+        font-size: 12px;
+    }
+    
+    .footer_copyright {
+         display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 32px;
+          padding-top: 32px;
+          text-align: center;
+        
+    }
+    
+
+    
+    
+    
+    
+    /*text*/
+    
+    .text3 {
+        padding-bottom: 3vw;
+    }
+    
+    .text_box {
+     /*   width: 78%; */
+        text-align: left;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text_box {
+            width: 78%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text_box {
+            width: 50%;
+        }
+    }
+    
+    
+    
+    .text {
+    /*    width: 100%; */
+        display: inline-block;
+        line-height: 2;
+      /*  margin: auto 11vw;  */
+        
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .text {
+            margin: auto 11vw;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 10000px) {
+        .text {
+            margin: auto 25vw;
+            width: 100%;
+            
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .text-title-quinstreet {
+        margin: 20px;
+    }
+    .text0 {
+        margin: 20px;
+    }
+    .text1 {
+        margin: 20px;
+    }
+    .text2 {
+        margin: 20px;
+    }
+    .text2-1 {
+        margin: 20px;
+    }
+    .text2-2, .text2-3, .text2-4, .text2-5, .text2-6, .text2-7, .text2-8, .text2-9, .text2-10, .text2-11, .text2-12, .text2-13, .text2-14, .text2-15, .text2-16, .text2-17, .text2-18, .text2-19, .text2-20, .text2-21, .text2-22, .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16, .text-title-big {
+        margin: 20px;
+    }
+    .text3 {
+        margin: 20px;
+    }
+    
+    
+    /* .text-title-big */
+    @media screen and (max-width: 500px) {
+        .text-title-big {
+            font-size: 7.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        .text-title-big {
+            font-size: 6.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        .text-title-big {
+            font-size: 24pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .text-title-big {
+            font-size: 28pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        .text-title-big {
+            font-size: 30pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        .text-title-big {
+            font-size: 32pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        .text-title-big {
+            font-size: 36pt;
+        }
+    }
+    
+    
+    
+    
+    /* text title quinstreet */
+    @media screen and (max-width: 500px) {
+        div.text-title-quinstreet {
+            font-size: 5.5vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text-title-quinstreet {
+            font-size: 4.5vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text-title-quinstreet {
+            font-size: 18pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text-title-quinstreet {
+            font-size: 20pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text-title-quinstreet {
+            font-size: 21pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text-title-quinstreet {
+            font-size: 23pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text-title-quinstreet {
+            font-size: 25pt;
+        }
+    }
+    
+    
+    
+    
+    /* text0 */
+   @media screen and (max-width: 500px) {
+        div.text0 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text0 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text0 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text0 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text0 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text0 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text0 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text1 */
+    @media screen and (max-width: 500px) {
+        div.text1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2 */
+    @media screen and (max-width: 500px) {
+        div.text2 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    /* text2-1 */
+    @media screen and (max-width: 500px) {
+        div.text2-1 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-1 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-1 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-1 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-1 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-1 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-1 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    /* text3 */
+    @media screen and (max-width: 500px) {
+        div.text3 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text3 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text3 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text3 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text3 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text3 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text3 {
+            font-size: 17pt;
+        }
+    }
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    /* text2-2 to text2-22 */
+    @media screen and (max-width: 500px) {
+        div.text2-2 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-2 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-2 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-2 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-2 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-2 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-2 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-3 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-3 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-3 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-3 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-3 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-3 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-3 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-4 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-4 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-4 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-4 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-4 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-4 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-4 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-5 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-5 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-5 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-5 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-5 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-5 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-5 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-6 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-6 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-6 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-6 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-6 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-6 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-6 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-7 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-7 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-7 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-7 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-7 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-7 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-7 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-8 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-8 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-8 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-8 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-8 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-8 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-8 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-9 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-9 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-9 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-9 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-9 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-9 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-9 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-10 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-10 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-10 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-10 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-10 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-10 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-10 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-11 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-11 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-11 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-11 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-11 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-11 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-11 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-12 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-12 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-12 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-12 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-12 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-12 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-12 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-13 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-13 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-13 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-13 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-13 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-13 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-13 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-14 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-14 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-14 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-14 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-14 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-14 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-14 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-15 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-15 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-15 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-15 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-15 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-15 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-15 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-16 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-16 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-16 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-16 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-16 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-16 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-16 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-17 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-17 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-17 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-17 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-17 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-17 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-17 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-18 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-18 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-18 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-18 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-18 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-18 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-18 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-19 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-19 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-19 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-19 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-19 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-19 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-19 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-20 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-20 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-20 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-20 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-20 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-20 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-20 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-21 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-21 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-21 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-21 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-21 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-21 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-21 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div.text2-22 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        div.text2-22 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        div.text2-22 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        div.text2-22 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        div.text2-22 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        div.text2-22 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        div.text2-22 {
+            font-size: 17pt;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 4vw;
+        }
+    }
+    @media screen and (min-width: 501px) (max-width: 600px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (min-width: 601px) (max-width: 900px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 12pt;
+        }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 14pt;
+        }
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1500px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 15pt;
+        }
+    }
+    @media screen and (min-width: 1501px) and (max-width: 1800px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 16pt;
+        }
+    }
+    @media screen and (min-width: 1801px) and (max-width: 10000px) {
+        .sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4, .sub-title-5, .sub-title-6, .sub-title-7, .sub-title-8, .sub-title-9, .sub-title-10, .sub-title-11, .sub-title-12, .sub-title-13, .sub-title-14, .sub-title-15, .sub-title-16 {
+            font-size: 17pt;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato',Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-weight: 300;
+  
+}
+    
+.logo {
+  margin: 0;
+ /* font-family: Arial Bold,Helvetica Neue Bold,Helvetica Bold,sans-serif;  */
+  align-items: center;
+}      
+
+.footer_copyright {
+  margin: 0;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;  
+}    
+    
+    
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create two columns */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+} 
+       
+
+/* nav bar */    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2ab5a2 0%, #2ab5a2   100%);
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}    
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 20px;
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    margin-top: 7px; 
+}    
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}    
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+        align-items: center;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+    }
+
+    }
+    
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+    
+    <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars">
+        </i>
+        </span>
+        <a href="index.html" class="logo"><img src="img_index/logo-lizli-fullname-white.png" width="200vw" align-items="center" draggable="false" style="-moz-user-select: none;"></a>
+        
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://drive.google.com/file/d/1sjnmVOiRT69MCWdGipH8qXWhQHOQ362B/view?usp=sharing" title="View my Resume" class="nav-links">Resume</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/lizdantingli/" title="Visit my LinkedIn" class="nav-links">LinkedIn</a>
+      </li>
+      <li>
+        <a target="_blank" href="mailto:liz.danting.li@gmail.com" title="Email me" class="nav-links">Email</a>
+      </li>
+    </ul>
+  </nav>
+    
+
+    
+    
+    
+    
+    <!-- loader animation -->
+    <div id="overlay">
+        <div id="progstat"></div>
+        <div id="progress"></div>
+      </div>
+    
+
+    
+    
+    
+    
+<!-- 
+sidebar outline 
+-->
+    
+<div id="mySidenav" class="sidenav">
+        
+  <a class="outline introduction" href="#introduction">Empathize</a>
+  <a class="outline research" href="#research">Define</a>
+  <a class="outline ideation" href="#ideation">Ideate</a>
+  <a class="outline design" href="#design">Prototype</a>
+  <a class="outline redesign" href="#redesign">DS</a>
+  <a class="outline strategy" href="#strategy">Marketing</a>
+  <a class="outline reflection" href="#reflection">Reflection</a>
+       
+</div>  
+    
+    
+    
+    
+<!-- Header -->
+<div class="header">
+  <img src="img_preshop/preshop_top.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+</div>
+
+<!-- Text Grid -->
+<div class="grid"> 
+        <div class="text_box">
+    <div class="text">
+        <div  data-easy-reveal="fade-in-up" class="text-title-big bigsubtitle titlefontchange"> <!-- /* rainbow sub title 7 colors change from lato to didot, add the titlefontchange class  in Feb 10, 2022 */ -->
+            <strong>Preshop</strong>
+        </div>
+
+<div  data-easy-reveal="fade-in-up" class="text0">
+Date: Spring 2022, Time: 3 Months,<br> Role: User Research, Interaction Design, Visual Design, <br>Team: Personal Project.
+</div>
+    
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet introduction1" id="introduction">
+            <strong>Empathize</strong>
+        </div>
+        <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>WHAT IS PRESHOP USED FOR?</strong></div>
+<div  data-easy-reveal="fade-in-up" class="text1">
+    Preshop is an extension that can be added to the browser to find deals all over the web and provide the best deal combo for online shoppers to spend less money shopping.</div>
+
+        <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>BACKGROUND STORY</strong></div>
+<div  data-easy-reveal="fade-in-up" class="text2">
+    According to the research in January 2022, 69% of Americans have shopped online, and 93% of U.S. shoppers cite discounts and offers as important factors when deciding whether or not to purchase. 
+    </div>
+    <div  data-easy-reveal="fade-in-up" class="text2">
+    However, people find that it costs them so much time to get the valid coupon codes, they usually miss the sales, and they feel tired about looking for the cheapest price about the specific product. 
+    </div>
+    <div  data-easy-reveal="fade-in-up" class="text2">
+    Therefore, I have a simple solution to provide combo plans about coupon codes and cash backs to help save people&#39;s money when shop online. 
+    </div>
+        
+         <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>PROJECT GOAL</strong></div>
+            <div class="text2-11">
+                <li data-easy-reveal="fade-in-up" >Save Money. Provide cheapest combo plans for saving people&#39;s money.</li>
+                <li data-easy-reveal="fade-in-up" >Save time. Preshop automates the entire coupon searching process and does the work for customers at the backend..</li>
+                <li data-easy-reveal="fade-in-up" >Smart purchases. Users can maximize their savings by receiving prompts and notifications that provide additional saving opportunities like free shipping.</li>
+            </div>
+
+        <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>BUSINESS GOAL</strong></div>
+            <div class="text2-11">
+                <li data-easy-reveal="fade-in-up" >Improve traffic on multiple brand websites.</li>
+                <li data-easy-reveal="fade-in-up" >Improve the brand familiarity of multiple brands.</li>
+                <li data-easy-reveal="fade-in-up" >Improve the sales and revenue of multiple brands.</li>
+            </div>
+
+        <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>PROCESS OVERVIEW</strong></div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/process_overview.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet research2" id="research">
+            <strong>Define</strong>
+        </div>
+            <div  data-easy-reveal="fade-in-up"  class="sub-title-7"><strong>TARGET AUDIENCE</strong></div>
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Honey and Rakuten provide similar service like Preshop and their audience demographics are similar and largest age group of users are 25-34 years old.
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Honey's audience is 58.62% male and 41.38% female. The largest age group of users are 25-34 years old (27.51%). The 2nd largest age group of users are 18-24 years old (25.77%). The 3rd largest age group of users are 35-44 years old (19.48%). <a target="_blank"  href="https://www.similarweb.com/website/joinhoney.com/#demographics">Reference</a>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/honey_targetaudience.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <div  data-easy-reveal="fade-in-up" class="text2-1">
+            Rakuten's audience is 52.92% male and 47.08% female. The largest age group of users are 25-34 years old (26.62%). The 2nd largest age group of users are 35-44 years old (22.38%). The 3rd largest age group of users are 18-24 years old (16.56%). <a target="_blank"  href="https://www.similarweb.com/website/rakuten.com/#demographics">Reference</a>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/rakuten_targetaudience.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            According to the audience demographics of Honey and Rakuten, I determine that the target audiences of Preshop are Millennials (26-41) and Gen Z (10-25). The Millennials are the main target audience because they hold the most purchasing power.
+        </div>
+        
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-1">
+            <strong>LEARNING GOALS</strong>
+        </div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >Shopping Behavior</li>
+            <li data-easy-reveal="fade-in-up" >Price Preferences</li>
+            <li data-easy-reveal="fade-in-up" >Thoughts about Discounts</li>
+        </div>
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-2">
+            <strong>INTERVIEWS</strong>
+        </div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >What category do you spend the most money on when you shop online?</li>
+            <li data-easy-reveal="fade-in-up" >How do you solve the problem when a coupon code is invalid?</li>
+            <li data-easy-reveal="fade-in-up" >What would be considered expensive for you?</li>
+            <li data-easy-reveal="fade-in-up" >What kind of discounts do you generally get when you shop online?</li>
+            <li data-easy-reveal="fade-in-up" >What kind of discounts will give you the idea to buy right away?</li>
+            <li data-easy-reveal="fade-in-up" >How do you find the highest discount when you shop online?</li>
+        </div>
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-2">
+            <strong>USER QUOTES</strong>
+        </div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >&#34;The hardest part during online shopping is comparing discounts among different websites and trying to find the cheapest one.&#34;</li>
+            <li data-easy-reveal="fade-in-up" >&#34;It costs me so much time to find the most money saving plan for a specific product and I feel tired about it.&#34;</li>
+            <li data-easy-reveal="fade-in-up" >&#34;I hate seeing the invalid coupon still showing on the website.&#34;</li>
+        </div>
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-2">
+            <strong>SURVEY</strong>
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            I conducted 12 user interviews and 15 surveys then received constructive feedbacks from them. I learnt a lot about their general insights, behaviors, frustrations, and wishes about online shopping.
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/survey_result.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-2">
+            <strong>SYNTHESIS CLUSTERING</strong>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/synthesis_clustering.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-2">
+            <strong>LEARNINGS &#38; FINDINGS</strong>
+        </div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >It costs people so much time and effort finding valid coupons when shop online.</li>
+            <li data-easy-reveal="fade-in-up" >People find it hard to save as much as possible money.</li>
+            <li data-easy-reveal="fade-in-up" >People don&#39;t have that much time to shop and usually miss the sales.</li>
+        </div>
+        
+        
+        
+        <div data-easy-reveal="fade-in-up"  class="sub-title-3">
+            <strong>EMPATHY MAP</strong>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/empathymap.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        
+        
+        
+        
+        <div data-easy-reveal="fade-in-up"  class="sub-title-4">
+            <strong>PERSONAS</strong>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/persona.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div data-easy-reveal="fade-in-up"  class="sub-title-6"><strong>PROBLEMS</strong></div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >Cost so much time and effort finding the valid coupons.</li>
+            <li data-easy-reveal="fade-in-up" >Frequently miss the sales.</li>
+            <li data-easy-reveal="fade-in-up" >Usually see the same product with cheaper price.</li>
+        </div>
+
+        <div data-easy-reveal="fade-in-up"  class="sub-title-6"><strong>PROBLEM STATEMENTS</strong></div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            I am Eric E-Commerce. 
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            I am trying to buy some clothes with the cheapest price.
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            But I can&#39;t or I stuggle because it costs me so much time and effort finding the valid coupons.
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            Only if I had a calculator showing the combination combo plan about scrolling valid coupons and cash backs for different brands to save my time and money.  
+        </div>
+
+        <div data-easy-reveal="fade-in-up"  class="sub-title-6"><strong>SOLUTION STATEMENTS</strong></div>
+        <div  data-easy-reveal="fade-in-up" class="text2-2">
+            PRESHOP is a broswer extension that provides combo plans for online shoppers to spend less money shopping. Preshop provides a collection of the all valid cash back websites, discount codes, official brand website sale, and gift cards earning apps to save as much money as possible.  
+        </div>
+        
+        <div data-easy-reveal="fade-in-up"  class="sub-title-4">
+            <strong>STORYBOARD</strong>
+        </div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/storyboard.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div data-easy-reveal="fade-in-up"  class="sub-title-6"><strong>DESIGN REQUIREMENTS</strong></div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >Savings Finder</li>
+            <li data-easy-reveal="fade-in-up" >Preshop Offers</li>
+            <li data-easy-reveal="fade-in-up" >Preshop Branded Coupons</li>
+        </div>
+
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet ideation3" id="ideation">
+            <strong>Ideate</strong>
+        </div>
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text2-10">
+        With the design requirements in mind, I started working on designing and conducting user testing including contextual inquiry (in-person and remote) and A/B Testing. Small distractions can have big consequences, so I worked on 5 design iterations in total.
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="sub-title-8"><strong>WHAT DID I LEARN FROM THE TESTING?</strong></div>
+        <div class="text2-5">
+            <li data-easy-reveal="fade-in-up" >Strike the balance between aesthetics and functionality.</li>
+            <li data-easy-reveal="fade-in-up" >Understand user behavior and user needs.</li>
+            <li data-easy-reveal="fade-in-up" >Treat UX writing seriously.</li>
+            <li data-easy-reveal="fade-in-up" >Start with the essential need-to-knows.</li>
+        </div>
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="sub-title-8"><strong>USER TESTING &#38; ITERATION</strong></div>
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/iteration_1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/iteration_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/iteration_3.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/iteration_4.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/iteration_5.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet design4" id="design">
+            <strong>Prototype</strong>
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-10">
+        After 5 design iterations, I decided to move forward on the 5th iteration and made the prototypes for 6 user flows (Flow 3 and 5 are the highlighted user flow).
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="sub-title-9">
+            <strong>USER FLOW</strong>
+        </div>
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 1: Add PRESHOP Extension to Browser.        
+        </div>
+        <img src="img_preshop/userflow_1.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_1.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 2: Remove the 10% off coupon code.        
+        </div>
+        <img src="img_preshop/userflow_2.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_2.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 3 (<strong>Highlight Flow</strong>): apply all codes to save 25% off.       
+        </div>
+        <img src="img_preshop/userflow_3.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_3.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_3_p1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/highlight_screen_3_p2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 4: Copy the 10% off coupon code.       
+        </div>
+        <img src="img_preshop/userflow_4.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_4.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_4.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 5 (<strong>Highlight Flow</strong>): Apply coupon code &#34;WELCOME20OFF&#34; at the cart, and share the code with PRESHOP community.       
+        </div>
+        <img src="img_preshop/userflow_5.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_5.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_5.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+        <div  data-easy-reveal="fade-in-up" class="text2-12">
+        Task 6: Remove the 10% off cash back from Rakuten.       
+        </div>
+        <img src="img_preshop/userflow_6.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        <video controls width="100%" autoplay loop><source src="img_preshop/userflow_6.mp4" type="video/mp4"></video>
+        <img src="img_preshop/highlight_screen_6.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+
+
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet redesign5" id="redesign">
+            <strong>Design System</strong>
+        </div>
+        <div  data-easy-reveal="fade-in-up" class="text2-10">
+        I made a design system of Preshop including spacing system, grid, font, headlines, button, link, and color system.
+        </div>
+        <img src="img_preshop/design_system_1.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/design_system_2.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/design_system_3.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/design_system_4.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/design_system_5.png" width="100%" draggable="false" style="-moz-user-select: none;">
+        <img src="img_preshop/design_system_6.png" width="100%" draggable="false" style="-moz-user-select: none;">
+
+
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet strategy6" id="strategy">
+            <strong>Marketing</strong>
+        </div>
+        
+        
+            <div  data-easy-reveal="fade-in-up" class="sub-title-13"><strong>SOUL</strong></div>
+            <div  data-easy-reveal="fade-in-up" class="text2-18">Provide the best deal combo for online shoppers to spend less money shopping.</div> 
+            <div  data-easy-reveal="fade-in-up" class="sub-title-14"><strong>MISSION</strong></div>
+            <div class="text2-19">
+            <li data-easy-reveal="fade-in-up" >We are straightforward. We provide cheapest combo plans for saving your money.</li>    
+            <li data-easy-reveal="fade-in-up" >We are clear. We have money character hero and well-designed user interface to guide you what you need to do next.</li>
+            <li data-easy-reveal="fade-in-up" >We are convenient. With one click, you can run the PRESHOP browser extension to find the available working coupons.</li>
+            </div> 
+            <div  data-easy-reveal="fade-in-up" class="sub-title-15"><strong>BRAND KEYWORDS</strong></div> 
+            <div  data-easy-reveal="fade-in-up" class="text2-20">Straightforward, clear, convenient, interactive, consistent, creative, engaging, aesthetic.</div>
+            <div data-easy-reveal="fade-in-up"  class="sub-title-16"><strong>BUSINESS EXTENSION</strong></div>
+            <div  data-easy-reveal="fade-in-up" class="text2-21">Provide reward program to give customers points that can be transformed into gift cards.</div>
+            
+            <div  data-easy-reveal="fade-in-up" class="sub-title-13"><strong>MARKETING VIDEO</strong></div>
+             <div  data-easy-reveal="fade-in-up" class="text2-21">I also made an one-minute motion graphics animation to promote PreShop. (Click to view)</div>
+             <video controls width="100%" ><source src="img_preshop/marketing_video.mp4" type="video/mp4"></video>
+                <!-- disable the "autoplay loop" because the sound is too loud if users read it from the top.
+                
+                <video controls width="100%" autoplay loop><source src="img_preshop/marketing_video.mp4" type="video/mp4"></video>
+
+                -->
+        
+        
+        
+        <div  data-easy-reveal="fade-in-up" class="text-title-quinstreet reflection7" id="reflection">
+            <strong>Reflection</strong>
+        </div>
+    
+        
+        <div  data-easy-reveal="fade-in-up" class="text3">
+        In terms of this project, I realized that simple UI embellishment can only produce surface delight. The deep delight can only be achieved based on the fundamentals of the product right like functional, usable, useful, desirable and reliable interfaces. Delight is about the users. Delight consists of pleasure, flow and meaning. I want to achieve delight in product design since it is missing for most of the products. I will focus more on the needs of users and help users become better at the thing they are trying to achieve.</div>
+        
+        <img  data-easy-reveal="fade-in-up" src="img_preshop/preshop_1.jpg" width="100%" draggable="false" style="-moz-user-select: none;">
+        
+        <!-- placeholder of a branding image mockup. An ad mockup photo or something else. Or fancy mp4 ads autoplay at the end. -->
+
+
+
+    </div>
+            </div>
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+    <!-- Footer -->
+    <footer>
+       <div class="footer_copyright"><p><small>&#169; Liz Li. Made From Scratch.</small></p>
+        </div>
+    </footer>
+    
+     <script>
+    let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <script>
+    $(document).keydown(function(e){
+    if(e.which === 123){
+ 
+       return false;
+ 
+    }
+ 
+});
+    </script>
+    <script>
+    $(document).bind("contextmenu",function(e) { 
+	e.preventDefault();
+ 
+});
+    </script>
+    
+    <script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <script>
+        ;(function(){
+  function id(v){return document.getElementById(v); }
+  function loadbar() {
+    var ovrl = id("overlay"),
+        prog = id("progress"),
+        stat = id("progstat"),
+        img = document.images,
+        c = 0;
+        tot = img.length;
+
+    function imgLoaded(){
+      c += 1;
+      var perc = ((100/tot*c) << 0) +"%";
+      prog.style.width = perc;
+      stat.innerHTML = "Loading "+ perc;
+      if(c===tot) return doneLoading();
+    }
+    function doneLoading(){
+      ovrl.style.opacity = 0;
+      setTimeout(function(){ 
+        ovrl.style.display = "none";
+      }, 1200);
+    }
+    for(var i=0; i<tot; i++) {
+      var tImg     = new Image();
+      tImg.onload  = imgLoaded;
+      tImg.onerror = imgLoaded;
+      tImg.src     = img[i].src;
+    }    
+  }
+  document.addEventListener('DOMContentLoaded', loadbar, false);
+}());
+    </script>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery.easy-reveal.min.js"></script>
+    <script src="jquery.easy-reveal.js"></script>
+    <script src="jquery.easy-reveal.min.js.map"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+
+
+
